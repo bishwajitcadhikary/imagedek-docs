@@ -1,0 +1,140 @@
+# Requirements
+The Laravel framework has a few system requirements. You should ensure that your web server has the following minimum PHP version and extensions:
+* PHP >= 8.1
+* BCMath PHP Extension
+* Ctype PHP Extension
+* cURL PHP Extension
+* DOM PHP Extension
+* Fileinfo PHP Extension
+* JSON PHP Extension
+* Mbstring PHP Extension
+* OpenSSL PHP Extension
+* PCRE PHP Extension
+* PDO PHP Extension
+* Tokenizer PHP Extension
+* XML PHP Extension
+* SymLink PHP File Extension
+
+## Installation
+### Installation Service
+1. Shared Hosting Installation Service ($25)
+2. VPS Installation Service ($50)
+3. Install AI Image on your own server ($100)
+
+#### Hire me on Fiverr: [Visit](https://www.fiverr.com/share/lV6NVa)
+
+### Installation on Shared Hosting
+#### Step 1: Download & Upload
+Download the latest version of AI Image from your CodeCanyon account and unzip it to your computer.
+1. Documentation
+2. Installable Files
+
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-16-12-19.png)](https://www.linkpicture.com/view.php?img=LPic64031acea3b181143610227)
+Open the installable_file folder and upload the AI Image.zip file to your server. You can also upload the AI Image.zip file to your server using an FTP client or File Manager.
+
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-16-21-55.png)](https://www.linkpicture.com/view.php?img=LPic64031bda6e45f661371792)
+
+#### Step 2: File Setup
+##### 1. Upload the AI Image.zip file to your server
+1. Login to your cPanel account.
+2. Click on the File Manager icon.
+3. Click on the public_html folder.
+4. Click on the Upload button.
+5. Click on the Choose File button.
+6. Select the AI Image.zip file from your computer.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-16-35-06.png)](https://www.linkpicture.com/view.php?img=LPic64031ef2acaf2687157448)
+
+##### 2. Extract the AI Image.zip file
+1. Click on the AI Image.zip file.
+2. Click on the Extract button.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-16-42-38.png)](https://www.linkpicture.com/view.php?img=LPic640320ace9590981179233)
+3. Delete the AI Image.zip file.
+
+#### Step 3: Database Setup
+##### 1. Create a database
+1. Go to your cPanel account.
+2. Click on the MySQL® Database Wizard.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-16-42-39.png)](https://www.linkpicture.com/view.php?img=LPic6403219eeddc11947069889)
+3. Give a name to your database.
+4. Note: Don't forget to write down your database name, username, and password. You will need them later.
+5. Click on the Next Step.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-16-55-13.png)](https://www.linkpicture.com/view.php?img=LPic6403239a8ea7a1491074511)
+
+##### 2. Create a user
+1. Create a username and password for your database.
+2. Click on the Create User.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-16-58-41.png)](https://www.linkpicture.com/view.php?img=LPic6403246ecb979893430244)
+
+##### 3. Grant privileges
+1. Now, click on All Privileges button.
+2. Click on the Make Changes button.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-00-27.png)](https://www.linkpicture.com/view.php?img=LPic640324d35db44350493416)
+
+##### 4. Done
+🥳🎉Congratulations! You have successfully created a database. 🎉🥳
+Note: Don't forget to write down your database name, username, and password. You will need them later.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-02-23.png)](https://www.linkpicture.com/view.php?img=LPic64032547d47222083154725)
+
+#### Step 4: Configure .htaccess file
+1. Go to your cPanel account.
+2. Click on the File Manager icon.
+3. Click on the public_html folder.
+4. Click on the .htaccess file.
+5. Click on the Edit button.
+6. Replace the code with the following code:
+7. Click on the Save Changes button.
+```
+# If running PHP 7.3 or higher, enable Litespeed caching
+<IfModule LiteSpeed>
+    CacheLookup on
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Rewrite Rules
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_URI} !^/public/
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^(.*)$ /public/$1
+    RewriteRule ^(/)?$ public/$1 [L]
+</IfModule>
+```
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-09-38.png)](https://www.linkpicture.com/view.php?img=LPic6403270d4b09b1215692406)
+🥳🎉Congratulations! You have successfully configured the .htaccess file. 🎉🥳
+
+#### Step 5: Installation Wizard
+##### 1. Open your browser and go to your domain name.
+For example: [http://yourdomain.com/install](http://yourdomain.com/install)
+##### 2. Server Requirements
+1. Click on the Check Requirements button.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-17-06.png)](https://www.linkpicture.com/view.php?img=LPic640328d1de6321832838243)
+2. If you see the green tick mark, it means that your server meets all the requirements. <br/>
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-17-11.png)](https://www.linkpicture.com/view.php?img=LPic640328d1de6321832838243)
+
+##### 3. Folder Permission
+1. Click on the Check Folder Permission button.
+2. If you see the green tick mark, it means that your server meets all the requirements. <br/>
+3. Click on the Verify License button.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-17-18.png)](https://www.linkpicture.com/view.php?img=LPic640328d1de6321832838243)
+
+##### 4. License Verification
+1. Enter your License Key, Enavto Username.
+2. Click on the Verify License button.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-21-59.png)](https://www.linkpicture.com/view.php?img=LPic64032a85ee2251839946148)
+
+##### 5. Database Setup
+1. Fill in the database details that you have created in Step 3.
+2. Click on the Save & Continue button.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-22-49.png)](https://www.linkpicture.com/view.php?img=LPic64032a85ee2251839946148)
+
+##### 6. Admin Setup
+1. Now, fill in the admin details.
+2. Click on the Save & Continue button.
+[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-04-17-23-46.png)](https://www.linkpicture.com/view.php?img=LPic64032a85ee2251839946148)
+🥳🎉Congratulations! You have successfully installed the AI Image.
