@@ -1,0 +1,10 @@
+{
+  "general": "General Settings",
+  "auth": "Authentication",
+  "mail": "Mail Configuration",
+  "file_disk": "File Disk (Storage)",
+  "language": "Language",
+  "backup": "Backup",
+  "license": "License",
+  "upgrade": "Upgrade"
+}
