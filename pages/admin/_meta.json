@@ -1,0 +1,8 @@
+{
+  "login": "Login",
+  "openapi": "OpenAPI Configuration",
+  "finance": "Finance Management",
+  "frontend": "Frontend Management",
+  "support": "Support Tickets",
+  "system": "System Settings"
+}

@@ -1,0 +1,5 @@
+{
+  "stripe": "Stripe",
+  "razorpay": "Razorpay",
+  "mollie": "Mollie"
+}
