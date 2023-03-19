@@ -1,6 +1,6 @@
 export default {
     logo: <>
-        <img src="https://www.linkpicture.com/q/logo_776.png" alt="ImageDek" width={150} />
+        <img src="https://www.linkpicture.com/q/logo_774.png" alt="logo" />
     </>,
     useNextSeoProps() {
         return {
