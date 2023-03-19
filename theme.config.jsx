@@ -15,7 +15,7 @@ export default {
         ),
         link: 'https://codecanyon.net/user/designing-world'
     },
-    docsRepositoryBase: 'https://github.com/bishwajitcadhikary/imagedek-docs',
+    docsRepositoryBase: 'https://github.com/bishwajitcadhikary/imagedek-docs/tree/main/',
     head: (
         <>
             <link type="image/x-icon" rel="shortcut icon" href="https://www.linkpicture.com/q/favicon_81.ico" />
