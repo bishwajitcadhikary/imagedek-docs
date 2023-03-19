@@ -22,6 +22,7 @@ export default {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta property="og:title" content="ImageDek - Image Generator Assistant (SAAS)" />
             <meta property="og:description" content="ImageDek is the ultimate AI image generator assistant for designers, marketers, and content creators. With its cutting-edge technology and intuitive interface, ImageDek helps you create stunning visuals that are sure to captivate your audience." />
+            <meta property="og:image" content="https://www.linkpicture.com/q/imagedek.png" />
         </>
     ),
     footer: {
