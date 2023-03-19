@@ -1,5 +1,10 @@
 {
   "registration": "Registration",
   "login": "Login",
-  "profile": "Profile"
+  "profile": "Profile",
+  "generator": "Image Generator",
+  "editor": "Image Editor",
+  "subscription": "Subscription",
+  "support": "Support Tickets",
+  "notification": "Notifications"
 }

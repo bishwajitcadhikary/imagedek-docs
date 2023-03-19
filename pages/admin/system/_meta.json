@@ -5,6 +5,7 @@
   "file_disk": "File Disk (Storage)",
   "language": "Language",
   "backup": "Backup",
+  "cron": "Cron Jobs",
   "license": "License",
   "upgrade": "Upgrade"
 }
