@@ -10,7 +10,7 @@ export default {
     project: {
         icon: (
             <>
-                <img src="https://www.linkpicture.com/q/logo-small_7.png" alt="logo" width={30} />
+                <img src="https://www.linkpicture.com/q/codecanyon-logo.png" alt="logo" width={50} />
             </>
         ),
         link: 'https://codecanyon.net/user/designing-world'
