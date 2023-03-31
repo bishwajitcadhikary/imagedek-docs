@@ -1,6 +1,6 @@
 export default {
     logo: <>
-        <img src="https://www.linkpicture.com/q/logo_774.png" alt="logo" />
+        <img src="https://www.linkpicture.com/q/logo-docs.png" alt="logo" width={200}/>
     </>,
     useNextSeoProps() {
         return {
@@ -13,12 +13,12 @@ export default {
                 <img src="https://www.linkpicture.com/q/codecanyon-logo.png" alt="logo" width={50} />
             </>
         ),
-        link: 'https://codecanyon.net/user/designing-world'
+        link: 'https://codecanyon.net/item/imagedek-ai-image-generator-assistant-saas/44438866'
     },
     docsRepositoryBase: 'https://github.com/bishwajitcadhikary/imagedek-docs/tree/main/',
     head: (
         <>
-            <link type="image/x-icon" rel="shortcut icon" href="https://www.linkpicture.com/q/favicon_81.ico" />
+            <link type="image/x-icon" rel="shortcut icon" href="https://www.linkpicture.com/q/favicon.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta property="og:title" content="ImageDek - AI Image Generator Assistant (SAAS)" />
             <meta property="og:description" content="ImageDek is the ultimate AI image generator assistant for designers, marketers, and content creators. With its cutting-edge technology and intuitive interface, ImageDek helps you create stunning visuals that are sure to captivate your audience." />
