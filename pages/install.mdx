@@ -102,12 +102,6 @@ Note: Don't forget to write down your database name, username, and password. You
     RewriteRule ^(.*)$ /public/$1
     RewriteRule ^(/)?$ public/$1 [L]
 </IfModule>
-
-<IfModule mod_headers.c>
-    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-    Header set X-Frame-Options "SAMEORIGIN"
-</IfModule>
-
 ```
 [![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-19-17-13-15.png)](https://www.linkpicture.com/view.php?img=LPic6416ee59ab7e01110322383)
 🥳🎉Congratulations! You have successfully configured the .htaccess file. 🎉🥳
