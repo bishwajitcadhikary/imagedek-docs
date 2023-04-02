@@ -2,5 +2,6 @@
   "index": "Overview",
   "install": "Installation",
   "admin": "Administration",
-  "user": "User Guide"
+  "user": "User Guide",
+  "troubleshooting": "Troubleshooting"
 }
