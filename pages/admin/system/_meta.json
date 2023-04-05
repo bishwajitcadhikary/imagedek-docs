@@ -2,7 +2,7 @@
   "general": "General Settings",
   "auth": "Authentication",
   "mail": "Mail Configuration",
-  "file_disk": "File Disk (Storage)",
+  "file_disk": "File Disk",
   "language": "Language",
   "backup": "Backup",
   "cron": "Cron Jobs",
