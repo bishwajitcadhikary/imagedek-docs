@@ -1,20 +1,16 @@
 # File Disk (Storage) Provider
 
-Here you can set the location of the file storage.
-The default is the `local` disk in the root of the application.
-You can change this to any location you want.
-The only requirement is that the folder must be writable by the application.
+Here you can set the location of the file storage. The default is the `local` disk in the root of the application. You can change this to any location you want. The only requirement is that the folder must be writable by the application.
 
 ## Supported Drivers
+The following storage drivers are supported:
+  * `local`
+  * `s3`
+  * `dropbox`
+  * `digitalocean`
 
-  * local
-  * s3
-  * dropbox
-  * digitalocean
+### List of File Disks
+In the `File Disk` section, you will see a list of all configured storage disks. Each disk will display its name, type, and status.
 
-### List of file disks
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-19-18-29-34.png)](https://www.linkpicture.com/view.php?img=LPic6417004e9a05d678541544)
-
-### Create a file disk
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-19-18-29-45.png)](https://www.linkpicture.com/view.php?img=LPic6417004e9a05d678541544)
-
+### Create a File Disk
+To create a new file disk, click on the `Add Disk` button. Provide the required details, such as the disk name, driver type, and configuration settings (e.g., access keys for S3). Save the changes to add the new disk.

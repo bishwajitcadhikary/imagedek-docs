@@ -3,6 +3,10 @@
 Follow the instructions below to set up a cron job to run the script every 1 minute.
 
 ## Get Cron Job Command
-Visit Here: [https://yourdomain.com/admin/system/cron-jobs](https://yourdomain.com/admin/system/cron-jobs)
+Visit the `Cron Jobs` section in the admin panel at [`https://yourdomain.com/admin/system/cron-jobs`](https://yourdomain.com/admin/system/cron-jobs). Copy the cron job command displayed on the page. This command should be added to your server's crontab.
 
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-19-18-35-20.png)](https://www.linkpicture.com/view.php?img=LPic64170193910c81592871203)
+## Set Up Cron Job
+1. Open your server's terminal.
+2. Run `crontab -e` to edit the crontab file.
+3. Add the copied command to the file and save it.
+4. Ensure the cron service is running on your server.

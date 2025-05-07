@@ -6,34 +6,23 @@ If you want to add some plugins or change the theme, you can do it by below step
 #### CSS
 ##### Step 1: Add the plugin's CSS file.
 Put the plugin's CSS file to `public/plugins/` folder.
-[![image](https://www.linkpicture.com/q/2023-03-31_13-26.png)](https://www.linkpicture.com/view.php?img=LPic64268bc491b9b1470156886)
 
 ##### Step 2: Load the plugin's CSS file.
 For frontend, add the plugin's CSS file to `resources/views/layouts/frontend/master.blade.php` file.
-[![image](https://www.linkpicture.com/q/2023-03-31_13-38.png)](https://www.linkpicture.com/view.php?img=LPic64268dff23d811515799626)
 
 Copy the code below and paste it to the `resources/views/layouts/frontend/master.blade.php` file.
-```
+```blade copy
 <link rel="stylesheet" href="{{ asset('plugins/PLUGIN_NAME/PLUGIN_NAME.css') }}">
 ```
-[![image](https://www.linkpicture.com/q/2023-03-31_13-42.png)](https://www.linkpicture.com/view.php?img=LPic64268ef1ccc94989593548)
-
 
 #### JS
 ##### Step 1: Add the plugin's JS file.
 Put the plugin's JS file to `public/plugins/` folder.
 
-[![image](https://www.linkpicture.com/q/2023-03-31_13-26.png)](https://www.linkpicture.com/view.php?img=LPic64268bc491b9b1470156886)
-
 ##### Step 2: Load the plugin's JS file.
 For frontend, add the plugin's JS file to `resources/views/layouts/frontend/master.blade.php` file.
-[![image](https://www.linkpicture.com/q/2023-03-31_13-38.png)](https://www.linkpicture.com/view.php?img=LPic64268dff23d811515799626)
 
 Copy the code below and paste it to the `resources/views/layouts/frontend/master.blade.php` file.
-```
+```blade copy
 <script src="{{ asset('plugins/PLUGIN_NAME/PLUGIN_NAME.js') }}"></script>
 ```
-[![image](https://www.linkpicture.com/q/2023-03-31_13-46.png)](https://www.linkpicture.com/view.php?img=LPic64268ff42f4ac137471623)
-
-
-More customization tutorials will be added soon.

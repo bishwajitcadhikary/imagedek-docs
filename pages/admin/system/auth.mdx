@@ -1,59 +1,41 @@
 # Authentication
 
 ## Social Authentication
-Open your browser and go to the following URL: [https://yourdomain.com/admin/system/social](https://yourdomain.com/admin/system/social) <br/>
+Open your browser and go to the following URL: [`https://yourdomain.com/admin/system/social`](https://yourdomain.com/admin/system/social) <br/>
 Here you can enable or disable the social authentication. <br/>
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-19-18-22-53.png)](https://www.linkpicture.com/view.php?img=LPic6416fecb9a0591839924655)
 
 ### Enable Social Login
-Open your browser and go to the following URL: [https://yourdomain.com/admin/system/social](https://yourdomain.com/admin/system/social) <br/>
-Find the **Enable Social Login** option and click on the **Dropdown** and Select **Enable** button.
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-05-14-25-60.png)](https://www.linkpicture.com/view.php?img=LPic64045e3912661977269049)
+Open your browser and go to the following URL: [`https://yourdomain.com/admin/system/social`](https://yourdomain.com/admin/system/social) <br/>
+Find the `Enable Social Login` option. You will see a dropdown menu. Select the `Enable` option to activate social login functionality.
 
 ### Enable Facebook Login
 Here you can enable or disable the Facebook authentication. <br/>
 
 #### Step 1: Create a Facebook App
-Open your browser and go to the following URL: [https://developers.facebook.com/docs/facebook-login/guides/advanced/manual-flow/](https://developers.facebook.com/docs/facebook-login/guides/advanced/manual-flow/) . Follow the steps to create a Facebook App. <br/>
-Note: You can also use the existing Facebook App. <br/>
-Now you will get the **App ID** and **App Secret**. <br/>
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-05-14-25-61.png)](https://www.linkpicture.com/view.php?img=LPic640460157d8de2119337051)
+Open your browser and go to the following URL: [`https://developers.facebook.com/docs/facebook-login/guides/advanced/manual-flow/`](https://developers.facebook.com/docs/facebook-login/guides/advanced/manual-flow/). Follow the steps to create a Facebook App. <br/>
+Note: You can also use an existing Facebook App. <br/>
+Once the app is created, you will receive the `App ID` and `App Secret`. These credentials are required for integration.
 
 #### Step 2: Enable Facebook Login
-Open your browser and go to the following URL: [https://yourdomain.com/admin/system/social](https://yourdomain.com/admin/system/social) <br/>
-Find the **Enable Facebook Login** option and click on the **Enable Facebook Login** checkbox. <br/>
-[![image](https://www.linkpicture.com/q/facebook_72.png)](https://www.linkpicture.com/view.php?img=LPic6416ff53356d11924166597)
+Go to [`https://yourdomain.com/admin/system/social`](https://yourdomain.com/admin/system/social). Locate the `Enable Facebook Login` checkbox and enable it. Enter the `App ID` and `App Secret` in the respective fields.
 
 ### Enable Google Login
 Here you can enable or disable the Google authentication. <br/>
 
-#### Step 1: Create a oAuth Client ID
-Open your browser and go to the following URL: [https://console.cloud.google.com/apis/dashboard](https://console.cloud.google.com/apis/dashboard) .
-Follow the steps to create a oAuth Client ID. <br/>
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-05-14-25-63.png)](https://www.linkpicture.com/view.php?img=LPic6404620e8d7422061810304)
+#### Step 1: Create an OAuth Client ID
+Visit [`https://console.cloud.google.com/apis/dashboard`](https://console.cloud.google.com/apis/dashboard). Follow the steps to create an OAuth Client ID. Ensure you configure the redirect URI to match your application.
 
-#### Step 2: Fill the required details
-Now, click on the **Create** button.
-[![image](https://www.linkpicture.com/q/Web-capture_5-3-2023_15360_console.cloud.google.com.jpeg)](https://www.linkpicture.com/view.php?img=LPic64046289bd1791885342789)
-
-Now, copy the **Client ID** and **Client Secret**. <br/>
-[![image](https://www.linkpicture.com/q/Screenshot-from-2023-03-05-14-25-64.png)](https://www.linkpicture.com/view.php?img=LPic640462b0b8d8b8c216201304)
+#### Step 2: Fill the Required Details
+After creating the OAuth Client ID, copy the `Client ID` and `Client Secret`. These will be used to configure Google login.
 
 #### Step 3: Enable Google Login
-Open your browser and go to the following URL: [https://yourdomain.com/admin/system/social](https://yourdomain.com/admin/system/social) <br/>
-Find the **Enable Google Login** option and click on the **Enable Google Login** checkbox. <br/>
-[![image](https://www.linkpicture.com/q/google_23.png)](https://www.linkpicture.com/view.php?img=LPic6416ff53356d11924166597)
+Go to [`https://yourdomain.com/admin/system/social`](https://yourdomain.com/admin/system/social). Locate the `Enable Google Login` checkbox and enable it. Enter the `Client ID` and `Client Secret` in the respective fields.
 
 ### Enable Twitter Login
 Here you can enable or disable the Twitter authentication. <br/>
 
 #### Step 1: Create a Twitter App
-Go to Twitter Developer App to click here: https://developer.twitter.com/en/portal/projects-and-apps
-1. Click on the **Create App** button.
-2. Fill the required details.
-3. Click on the **Create** button.
-4. Head over to the API Keys section; you can get your Consumer Key and Consumer secret keys from there.
-5. Copy the consumer key (API key) and consumer secret from the screen into the laravel application.
+Visit [`https://developer.twitter.com/en/portal/projects-and-apps`](https://developer.twitter.com/en/portal/projects-and-apps). Click on the `Create App` button and fill in the required details. After creating the app, navigate to the API Keys section to retrieve your `Consumer Key` and `Consumer Secret`.
 
 Callback URL:
 ```
@@ -61,26 +43,13 @@ https://yourdomain.com/oauth/twitter/callback
 ```
 
 #### Step 2: Enable Twitter Login
-Open your browser and go to the following URL: [https://yourdomain.com/admin/system/social](https://yourdomain.com/admin/system/social) <br/>
-
-Find the **Enable Twitter Login** option and click on the **Enable Twitter Login** checkbox. <br/>
-[![image](https://www.linkpicture.com/q/twitter_57.png)](https://www.linkpicture.com/view.php?img=LPic6416ff53356d11924166597)
+Go to [`https://yourdomain.com/admin/system/social`](https://yourdomain.com/admin/system/social). Locate the `Enable Twitter Login` checkbox and enable it. Enter the `Consumer Key` and `Consumer Secret` in the respective fields.
 
 ### Enable Linkedin Login
 Here you can enable or disable the Linkedin authentication. <br/>
 
 #### Step 1: Create a Linkedin App
-Open your browser and go to the following URL: [https://www.linkedin.com/developers](https://www.linkedin.com/developers) <br/>
-[![image](https://www.linkpicture.com/q/LPic640466437cf871802597970.jpg)](https://www.linkpicture.com/view.php?img=LPic640466437cf871802597970)
-
-
-On the Create an app page, you have to add app name, your LinkedIn page name, or url; if you don’t have, please create lastly add the app logo and continue to next step:
-[![image](https://www.linkpicture.com/q/LPic640466676dcf51719611647.jpg)](https://www.linkpicture.com/view.php?img=LPic640466676dcf51719611647)
-
-Your linkedin app has been created; you will see the various tabs; however, you have to open the Auth tab. Here in the Application credentials section, you have to copy the Authentication keys.
-[![image](https://www.linkpicture.com/q/LPic6404669c93eb9177989228.jpg)](https://www.linkpicture.com/view.php?img=LPic6404669c93eb9177989228)
+Visit [`https://www.linkedin.com/developers`](https://www.linkedin.com/developers). Create a new app by providing the required details, such as the app name and logo. Once the app is created, navigate to the `Auth` tab to retrieve the `Client ID` and `Client Secret`.
 
 #### Step 2: Enable Linkedin Login
-Open your browser and go to the following URL: [https://yourdomain.com/admin/system/social](https://yourdomain.com/admin/system/social) <br/>
-Find the **Enable Linkedin Login** option and click on the **Enable Linkedin Login** checkbox. <br/>
-[![image](https://www.linkpicture.com/q/linkedin_18.png)](https://www.linkpicture.com/view.php?img=LPic6416ff53356d11924166597)
+Go to [`https://yourdomain.com/admin/system/social`](https://yourdomain.com/admin/system/social). Locate the `Enable Linkedin Login` checkbox and enable it. Enter the `Client ID` and `Client Secret` in the respective fields.
